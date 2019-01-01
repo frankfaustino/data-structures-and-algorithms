@@ -2,7 +2,7 @@
 
 - [Overview](#overview)
 - [Binary Tree](binary-tree)
-- [Traversal](binary-tree/tree-traversal)
+- [Traversal](../../algorithms/tree)
 - [Terminology](#terminology)
 
 ## Overview
