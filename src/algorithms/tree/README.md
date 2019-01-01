@@ -25,10 +25,11 @@ The following methods show left-to-right traversal: **pre-order**, **in-order** 
   4. Traverse the right subtree by recursively calling the pre-order function.
 
 <p align="center">
-  <img src="../../../assets/DFS_preorder.png" width="600" />
+  <img src="../../../assets/DFS_preorder.png" width="500" />
 </p>
-
+<p align="center">
 Pre-order: 11, 7, 5, 3, 6, 9, 8, 10, 15, 13, 12, 14, 20, 18, 25
+</p>
 
 The pre-order traversal is [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) (linear order), because a parent node is processed before any of its child nodes is done.
 
@@ -39,10 +40,11 @@ The pre-order traversal is [topologically sorted](https://en.wikipedia.org/wiki/
   4. Traverse the right subtree by recursively calling the in-order function.
 
 <p align="center">
-  <img src="../../../assets/DFS_inorder.png" width="600" />
+  <img src="../../../assets/DFS_inorder.png" width="500" />
 </p>
-
+<p align="center">
 In-order: 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 20, 25
+</p>
 
 In a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree), in-order traversal retrieves data in sorted order.
 
@@ -53,19 +55,21 @@ In a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree), in-
   4. Display the data part of the root (or current node).
 
 <p align="center">
-  <img src="../../../assets/DFS_postorder.png" width="600" />
+  <img src="../../../assets/DFS_postorder.png" width="500" />
 </p>
-
+<p align="center">
 Post-order: 3, 6, 5, 8, 10, 9, 7, 12, 14, 13, 18,25, 20, 15, 11
+</p>
 
 ## Breadth-first search
 Trees can also be traversed in _level-order_, where we visit every node on a level before going to a lower level.
 
 <p align="center">
-  <img src="../../../assets/BFS.png" width="600" />
+  <img src="../../../assets/BFS.png" width="500" />
 </p>
-
+<p align="center">
 Level-order: 11, 7, 15, 5, 9, 13, 20, 3, 6, 8, 10, 12, 14, 18, 25
+</p>
 
 <hr>
 

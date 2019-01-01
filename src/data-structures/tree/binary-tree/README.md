@@ -1,7 +1,9 @@
 ## Binary Tree
 Trees are commonly represented as **binary trees**, a _rooted_ tree structure in which each node has no more than two children.
 
-<img src="../../../../assets/binary_tree.svg" width="600" />
+<p align="center">
+  <img src="../../../../assets/binary_tree.svg" width="600" />
+</p>
 
 A **node** of a binary tree is represented by a structure containing **data** and two pointers (__left__ and __right__) to other structures of the same type.
 

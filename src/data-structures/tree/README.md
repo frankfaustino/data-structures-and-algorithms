@@ -8,7 +8,9 @@
 ## Overview
 A **tree** is a non-linear data structure that simulates a hierarchical tree structure.
 
-<img src="../../../assets/k-ary_tree.svg" width="600" />
+<p align="center">
+  <img src="../../../assets/k-ary_tree.svg" width="600" />
+</p>
 
 A tree is made up of **nodes** (or **vertices**) connected by (`n-1`) **edges** without having any cycle.
 
