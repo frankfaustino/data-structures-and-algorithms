@@ -1,4 +1,4 @@
-<h1 align="center">Data Structures and Algorithms</h1>
+<h1 align="center"><img src="assets/title.svg" /></h1>
 <h4 align="center">A collection of data structures and algorithms implemented in Python and JavaScript.</h4>
 
 <br>
@@ -6,21 +6,23 @@
 ## Contents
 - [Data Structures](#data-structures)
   - [Tree](src/data-structures)
-- [Algorithms](#algorithms)
+- [Algorithms](#algorithms) 🚧
   - [Sorting](#sorting)
   - [Searching](#searching)
   - [Graph problems](#graph-problems)
   - [Sets](#sets)
   - [Strings](#strings)
-- Algorithm Designs and Techniques
+- Algorithm Designs and Techniques 🚧
   - Divide and conquer
   - Dynamic programming
   - Greedy algorithms
-- [Analysis of Algorithms](src/analysis-of-algorithms/README.md)
+- [Analysis of Algorithms](src/analysis-of-algorithms/README.md) 🚧
   - [Asymptotic Notation](src/analysis-of-algorithms/asymptotic-notation/README.md)
   - Comparing complexities
   - NP-completeness theory
 <br>
+
+🚧 _denotes section is WIP_
 
 ## Data Structures
 
