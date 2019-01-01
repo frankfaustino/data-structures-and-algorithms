@@ -1,46 +1,20 @@
 # Tree
 
-A **tree** is a non-linear data structure that simulates a hierarchical tree structure.
-
-<img src="../../../assets/binary_tree.svg" width="500" />
-
-## Contents
 - [Overview](#overview)
-- [Binary Tree](#binary-tree)
-- [Binary Tree Node](#binary-tree-node)
-- [Traversal](#traversal)
+- [Binary Tree](binary-tree)
+- [Traversal](binary-tree/tree-traversal)
 - [Terminology](#terminology)
 
 ## Overview
+A **tree** is a non-linear data structure that simulates a hierarchical tree structure.
+
+<img src="../../../assets/k-ary_tree.svg" width="600" />
 
 A tree is made up of **nodes** (or **vertices**) connected by (`n-1`) **edges** without having any cycle.
 
 A tree that is not empty consists of a **root** node and potentially many **levels** of additional nodes that form a hierarchy.
 
 If a node is connected to other nodes below it, that node is called the **parent** node, and the nodes following it are called **child** nodes.
-
-## Binary Tree
-Trees are commonly represented as **binary trees**, a structure that has two children, referred to as _left_ and _right_.
-
-## Binary Tree Node
-A node of a **binary tree** is represented by a structure containing data and two pointers to other structures of the same type.
-
-```js
-class Node {
-  constructor(value = null) {
-    this.value = value
-    this.left = null
-    this.right = null
-  }
-}
-```
-<img src="../../../assets/binary_tree_node.svg" width="300" />
-
-## Traversal
-**Tree traversal** (tree search) refers to the process of visiting each node in a tree exactly once.
-
-### Depth-first search (DFS)
-There are three common ways to traverse a binary tree in depth-first order: **in-order**, **pre-order** and **post-order**.
 
 ## Terminology
 
