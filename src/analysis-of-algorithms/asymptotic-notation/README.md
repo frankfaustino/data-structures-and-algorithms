@@ -1,7 +1,7 @@
 # Big-O Notation
 
 <p align="center">
-  <img src="../../../assets/big-o-notation.png">
+  <img src="../../../assets/big-o-notation.svg">
 </p>
 
 Classes of functions that are commonly encountered when analyzing the running time of an algorithm.
