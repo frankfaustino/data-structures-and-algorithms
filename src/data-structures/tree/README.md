@@ -1,22 +1,41 @@
 # Tree
+A **tree** is a non-linear data structure that simulates a hierarchical tree structure.
 
-- [Overview](#overview)
+- [General Tree](#general-tree)
 - [Binary Tree](binary-tree)
+- [Binary Search Tree](binary-search-tree)
 - [Traversal](../../algorithms/tree)
 - [Terminology](#terminology)
 
-## Overview
-A **tree** is a non-linear data structure that simulates a hierarchical tree structure.
+## General Tree
 
 <p align="center">
   <img src="../../../assets/k-ary_tree.svg" width="600" />
 </p>
 
-A tree is made up of **nodes** (or **vertices**) connected by (`n-1`) **edges** without having any cycle.
+A **general tree**, or _k_-ary tree, is made up of **nodes** (or **vertices**) connected by **edges**.
 
-A tree that is not empty consists of a **root** node and potentially many **levels** of additional nodes that form a hierarchy.
+A tree has a **root** node and potentially many **levels** of an arbitrary number of **children** that form a hierarchy.
 
-If a node is connected to other nodes below it, that node is called the **parent** node, and the nodes following it are called **child** nodes.
+If a node is connected to other nodes below it, that node is called the **parent** node, and the nodes following it are called **child** nodes. Each node in the tree can be see as a **subtree**.
+
+## Constraints
+- A child has only _one_ parent and the root node has _no_ parent.
+
+_Note: A tree is a graph without cycles._
+
+## Common Operations
+#### Insert
+<img width="20px" />Inserts a node in the tree.
+
+#### Search
+<img width="20px" />This searches for a node with the given value in the tree and returns `true` if it exists, otherwise `false`.
+
+#### Min/Max
+<img width="20px" />Returns the minimum or maximum value in the tree.
+
+#### Remove
+<img width="20px" />Removes a node from the tree.
 
 ## Terminology
 
