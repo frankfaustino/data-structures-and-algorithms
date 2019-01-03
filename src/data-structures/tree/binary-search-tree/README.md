@@ -1,4 +1,4 @@
-## Binary Search Tree
+# Binary Search Tree
 **Binary search trees** are binary trees that keep their nodes in sorted order, so that lookup and other operations can use _binary search_.
 
 ## Constraints

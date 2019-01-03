@@ -7,11 +7,12 @@
 - [Data Structures](#data-structures)
   - [Tree](src/data-structures)
 - [Algorithms](#algorithms) 🚧
-  - [Sorting](#sorting)
-  - [Searching](#searching)
-  - [Graph problems](#graph-problems)
-  - [Sets](#sets)
-  - [Strings](#strings)
+  - [Tree Traversal](#tree-traversal)
+  - Sorting
+  - Searching
+  - Graph problems
+  - Sets
+  - Strings
 - Algorithm Designs and Techniques 🚧
   - Divide and conquer
   - Dynamic programming
@@ -28,38 +29,20 @@
 
 > In computer science, a __data structure__ is a data organization, management and storage format that enables efficient access and modification. More precisely, a __data structure__ is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. _— [Wikipedia](https://en.wikipedia.org/wiki/Data_structure)_
 
-|Name|Description                                                             |
-|----|------------------------------------------------------------------------|
-|[Tree](src/data-structures/tree)| non-linear data structure that simulates a hierarchical tree structure |
+|Name|Description|
+|----|-----------|
+|[Tree](src/data-structures/tree)|non-linear data structure that simulates a hierarchical tree structure|
 
 ## Algorithms
 
 > In mathematics and computer science, an __algorithm__ is an unambiguous specification of how to solve a class of problems. "A set of rules that precisely defines a sequence of operations." — _[Wikipedia](https://en.wikipedia.org/wiki/Algorithm)_
 
-### Sorting
+### Tree Traversal
 
 |Name|Description|
-|-|-|
-
-### Searching
-
-|Name|Description|
-|-|-|
-
-### Graph problems
-
-|Name|Description|
-|-|-|
-
-### Sets
-
-|Name|Description|
-|-|-|
-
-### Strings
-
-|Name|Description|
-|-|-|
+|----|-----------|
+|[Depth-First Search (DFS)](src/algorithms/tree/depth-first-search)|--|
+|[Breadth-First Search (BFS)](src/algorithms/tree/breadth-first-search)|--|
 
 ## Algorithm Designs and Techniques
 
