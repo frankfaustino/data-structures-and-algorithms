@@ -1,6 +1,11 @@
 # Linked Lists
 
+<p align="center">
+  <img src="../../../assets/SinglyLinkedList.jpg"/>
+</p>
+
 - [Singly Linked List](#singly-linked-list)
+
 
 ## Description
 
@@ -8,17 +13,20 @@ A linked list is a dynamic linear data structure where each element is a separat
 
 ## Advantages
 
-Insertion and removal of nodes is O(1) time since only the pointers need to be changed. Linked lists do not need contiguos allocated memory up-front. If there is room in memory for the node, it can be added to the linked list.
+Insertion and removal of nodes are O(1) time since only the pointers need to be changed. Linked lists do not need contiguos allocated memory up-front. If there is room in memory for the node, then it can be added to the linked list.
 
 ## Disadvantages
 
 Linked lists are not as cache-friendly because they do not use contiguous memory. Searching a linked list is O(n) time because there is no access to indexing. A search must start at the head (or tail if doubly-linked) and move through the list one node at a time until either the target value is found or is not in the list. This is called sequential access. Another disadvantage when considering space complexity is linked lists use more memory to hold the pointer to the next node.
 
 ## Common Operations/Methods
-#### Insertion
-#### Removal
-#### Search
-#### Size
+| Op/Method | Description |
+|:--------- | ----------- |
+| Insertion | |
+| Removal   | | 
+| Search    | |
+| Size      | |
+
 <hr>
 
 #### _References_
