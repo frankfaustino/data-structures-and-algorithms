@@ -12,7 +12,7 @@
   - Searching
   - Graph problems
   - Sets
-  - Strings
+  - [Strings](#strings)
 - Algorithm Designs and Techniques 🚧
   - Divide and conquer
   - Dynamic programming
@@ -41,8 +41,14 @@
 
 |Name|Description|
 |----|-----------|
-|[Depth-First Search (DFS)](src/algorithms/tree/depth-first-search)|--|
-|[Breadth-First Search (BFS)](src/algorithms/tree/breadth-first-search)|--|
+|[Depth-First Search (DFS)](src/algorithms/tree/depth-first-search)|algorithm for searching or traversing tree or graph data structures|
+|[Breadth-First Search (BFS)](src/algorithms/tree/breadth-first-search)|algorithm for searching or traversing tree or graph data structures|
+
+### Strings
+
+|Name|Description|
+|----|-----------|
+|[Knuth-Morris-Pratt (KMP)](src/algorithms/strings/knuth-morris-pratt)|string-searching algorithm|
 
 ## Algorithm Designs and Techniques
 

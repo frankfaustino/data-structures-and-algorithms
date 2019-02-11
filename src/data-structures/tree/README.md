@@ -87,4 +87,4 @@ _Note: A tree is a graph without cycles._
 
 _[Wikipedia — Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure))_
 
-[↑](#contents)
+[↑](#tree)
