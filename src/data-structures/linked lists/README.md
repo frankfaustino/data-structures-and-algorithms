@@ -1,7 +1,7 @@
 # Linked Lists
 
 <p align="center">
-  <img src="../../../assets/SinglyLinkedList.jpg"/>
+  <img src="../../../assets/linked-list.svg"/>
 </p>
 
 - [Singly Linked List](#singly-linked-list)
@@ -19,11 +19,11 @@ Insertion and removal of nodes are O(1) time since only the pointers need to be 
 
 Linked lists are not as cache-friendly because they do not use contiguous memory. Searching a linked list is O(n) time because there is no access to indexing. A search must start at the head (or tail if doubly-linked) and move through the list one node at a time until either the target value is found or is not in the list. This is called sequential access. Another disadvantage when considering space complexity is linked lists use more memory to hold the pointer to the next node.
 
-## Common Operations/Methods
+## Common Operations
 | Op/Method | Description |
 |:--------- | ----------- |
 | Insertion | |
-| Removal   | | 
+| Removal   | |
 | Search    | |
 | Size      | |
 
@@ -33,4 +33,4 @@ Linked lists are not as cache-friendly because they do not use contiguous memory
 
 _[Linked Lists](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)_
 
-[↑](#contents)
+[↑](#Linked-Lists)
